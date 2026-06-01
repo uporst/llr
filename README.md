@@ -60,12 +60,12 @@ Sample results (x86-64, O2):
 
 | Function       | cy/call | vs 16-QAM max-log |
 |----------------|--------:|------------------:|
-| 16-QAM max-log |     112 |             1.00× |
-| 16-QAM linear  |      36 |             0.32× |
-| 64-QAM max-log |     182 |             1.62× |
-| 64-QAM linear  |      33 |             0.29× |
-| 256-QAM max-log|     288 |             2.56× |
-| 256-QAM linear |      42 |             0.37× |
+| 16-QAM max-log |      70 |             1.00× |
+| 16-QAM linear  |      14 |             0.21× |
+| 64-QAM max-log |     145 |             2.08× |
+| 64-QAM linear  |      32 |             0.46× |
+| 256-QAM max-log|     330 |             4.74× |
+| 256-QAM linear |      42 |             0.60× |
 
 For stable results, pin to one core and set the CPU governor to performance:
 
