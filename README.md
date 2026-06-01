@@ -58,14 +58,14 @@ taskset -c 0 ./bench_llr
 
 Sample results (x86-64, O2):
 
-| Function       | cy/call | vs 16-QAM max-log |
-|----------------|--------:|------------------:|
-| 16-QAM max-log |      70 |             1.00× |
-| 16-QAM linear  |      14 |             0.21× |
-| 64-QAM max-log |     145 |             2.08× |
-| 64-QAM linear  |      32 |             0.46× |
-| 256-QAM max-log|     330 |             4.74× |
-| 256-QAM linear |      42 |             0.60× |
+| Function        | cy/call (avg 5 runs) | vs 16-QAM max-log |
+|-----------------|---------------------:|------------------:|
+| 16-QAM  max-log |                   71 |             1.00× |
+| 16-QAM  linear  |                   14 |             0.19× |
+| 64-QAM  max-log |                  133 |             1.88× |
+| 64-QAM  linear  |                   33 |             0.46× |
+| 256-QAM max-log |                  306 |             4.32× |
+| 256-QAM linear  |                   45 |             0.63× |
 
 For stable results, pin to one core and set the CPU governor to performance:
 
